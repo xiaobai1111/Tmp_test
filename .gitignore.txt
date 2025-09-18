@@ -1,1 +1,8 @@
-Test11111/Temp/
+
+# 忽略Unity临时文件夹
+[Tt]emp/
+# 忽略所有构建目录
+**/bin/
+**/obj/
+# 排除特定子目录中的文件
+!src/bin/essential.dll

@@ -53,16 +53,16 @@
      <Compile Include="Packages\com.unity.textmeshpro@2.1.6\Tests\Editor\TMP_EditorTests.cs" />
      <None Include="Packages\com.unity.textmeshpro@2.1.6\Tests\Editor\Unity.TextMeshPro.Editor.Tests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>E:/untiy/Unity 2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -260,7 +260,7 @@
  <HintPath>E:/untiy/Unity 2019.4.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>E:/011_unityTest/Test11111/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>E:/untiy/Unity 2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

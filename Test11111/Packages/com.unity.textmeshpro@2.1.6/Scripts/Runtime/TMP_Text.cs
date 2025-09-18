@@ -4,6 +4,7 @@ using System;
 using System.Collections;
 using System.Text;
 using System.Collections.Generic;
+using Packages.com.unity._1._6.Scripts.Runtime;
 using Unity.Profiling;
 using UnityEngine;
 using UnityEngine.TextCore;
@@ -152,6 +153,25 @@ namespace TMPro
         }
         [SerializeField]
         protected ITextPreprocessor m_TextPreprocessor;
+        
+        /// <summary>
+        /// 多语言文本id
+        /// </summary>
+        [SerializeField]
+        private int m_TextId;
+        public int TextId
+        {
+            get { return m_TextId; }
+            set
+            {
+                m_TextId = value;
+                if (value <= 0)
+                {
+                    return;
+                }
+                text = Tmp_FontUnderlayInfos.GetConfigTextById(value);
+            }
+        }
 
         /// <summary>
         ///

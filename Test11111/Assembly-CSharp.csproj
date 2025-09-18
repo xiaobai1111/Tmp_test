@@ -84,6 +84,8 @@
     <Compile Include="Assets\Samples\YooAsset\2.3.7\Space Shooter\GameScript\Runtime\WindowLogic\UIHomeWindow.cs" />
     <Compile Include="Assets\Samples\YooAsset\2.3.7\Space Shooter\GameScript\Runtime\WindowLogic\UILoadingWindow.cs" />
     <Compile Include="Assets\SomeWindow.cs" />
+    <Compile Include="Assets\TMPTools\FontStyleSetting.cs" />
+    <Compile Include="Assets\TMPTools\TextConfig.cs" />
     <Compile Include="Assets\TestWindow.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -110,40 +112,40 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="YooAsset">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/YooAsset.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/YooAsset.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="YooAsset.Editor">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/YooAsset.Editor.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/YooAsset.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>E:/untiy/Unity 2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -329,22 +331,22 @@
       <HintPath>E:/untiy/Unity 2019.4.40f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
-      <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
-      <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization">
-      <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities">
-      <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
-      <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+      <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:/untiy/Unity 2019.4.40f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

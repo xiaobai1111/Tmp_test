@@ -61,16 +61,16 @@
      <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\VectorIntPropertyResolvers.cs" />
      <None Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" />
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>E:/011_unityTest/Test11111/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>E:/untiy/Unity 2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -268,37 +268,37 @@
  <HintPath>E:/untiy/Unity 2019.4.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.OdinInspector.Attributes">
- <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.OdinInspector.Editor">
- <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Serialization.Config">
- <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Serialization">
- <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Utilities">
- <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Utilities.Editor">
- <HintPath>E:/011_unityTest/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>E:/011_unityTest/Test11111/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>E:/011_unityTest/Test11111/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>E:/011_unityTest/Test11111/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>E:/011_unityTest/Test11111/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>E:/011_unityTest/Test11111/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>E:/untiy/Unity 2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

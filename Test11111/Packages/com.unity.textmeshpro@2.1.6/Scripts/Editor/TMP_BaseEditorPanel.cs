@@ -688,7 +688,25 @@ namespace TMPro.EditorUtilities
             {
                 m_FontStyleProp.intValue = v1 + v2 + v3 + v4 + v5 + v6 + v7;
                 m_HavePropertiesChanged = true;
+            } 
+            
+            TMP_Text text = target as TMP_Text;
+            // 检查属性变化
+            /*
+            int oldFontColorId = text.FontId;
+            text.FontId = EditorGUILayout.IntField("字体颜色ID:", text.FontId);
+            if (text.FontId != oldFontColorId)
+            {
+                m_HavePropertiesChanged = true;
+            }*/
+
+            int oldTextId = text.TextId;
+            text.TextId = EditorGUILayout.IntField("文本ID:", text.TextId);
+            if (text.TextId != oldTextId)
+            {
+                m_HavePropertiesChanged = true;
             }
+            
 
             // FONT SIZE
             EditorGUI.BeginChangeCheck();
