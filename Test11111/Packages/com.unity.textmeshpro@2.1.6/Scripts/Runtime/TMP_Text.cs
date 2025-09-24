@@ -173,6 +173,38 @@ namespace TMPro
             }
         }
 
+        [SerializeField]
+        protected int m_fontId;
+        public int FontId
+        {
+            get { return m_fontId; }
+            set
+            {
+                if (m_fontId == value && m_isAwake)
+                    return;
+
+                m_havePropertiesChanged = true;
+                TMP_FontColorInfo fontColorInfo = Tmp_FontUnderlayInfos.Ins.GetFontColorInfo(value);
+                if (fontColorInfo != null)
+                {
+                    if (fontColorInfo.isTopColor && fontColorInfo.isBottomColor)
+                    {    
+                        enableVertexGradient = true;
+                        m_colorMode = ColorMode.VerticalGradient;
+                        colorGradient = new VertexGradient(fontColorInfo.topColor,fontColorInfo.topColor, fontColorInfo.bottomColor, fontColorInfo.bottomColor);
+                        color = Color.white;
+                    }
+                    else
+                    {
+                        enableVertexGradient = false;
+                        color = fontColorInfo.color;
+                    }
+                }
+                m_fontId = value;
+                SetVerticesDirty();
+            }
+        }
+
         /// <summary>
         ///
         /// </summary>

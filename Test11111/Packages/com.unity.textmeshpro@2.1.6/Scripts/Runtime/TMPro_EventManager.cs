@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-
+using Packages.com.unity._1._6.Scripts.Runtime;
 
 namespace TMPro
 {
@@ -33,6 +33,8 @@ namespace TMPro
         public static readonly FastAction<bool, Object> TEXTMESHPRO_UGUI_PROPERTY_EVENT = new FastAction<bool, Object>();
 
         public static readonly FastAction<Object> TEXT_CHANGED_EVENT = new FastAction<Object>();
+        
+        public static readonly FastAction<TMP_FontSizeToUnderlayDilateInfo> FONTSTYLEID_CHANGED_EVENT = new FastAction<TMP_FontSizeToUnderlayDilateInfo>();
 
         //public static readonly FastAction WILL_RENDER_CANVASES = new FastAction();
 

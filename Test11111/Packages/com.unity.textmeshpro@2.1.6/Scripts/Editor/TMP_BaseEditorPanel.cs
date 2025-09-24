@@ -691,14 +691,19 @@ namespace TMPro.EditorUtilities
             } 
             
             TMP_Text text = target as TMP_Text;
-            // 检查属性变化
-            /*
             int oldFontColorId = text.FontId;
             text.FontId = EditorGUILayout.IntField("字体颜色ID:", text.FontId);
             if (text.FontId != oldFontColorId)
             {
                 m_HavePropertiesChanged = true;
-            }*/
+            }
+            
+                        /*int oldUnderlayColorId = text.UnderlayColorId;
+                        text.UnderlayColorId = EditorGUILayout.IntField("字体描边ID:", text.UnderlayColorId);
+                        if (text.UnderlayColorId != oldUnderlayColorId)
+                        {
+                            m_HavePropertiesChanged = true;
+                        }*/
 
             int oldTextId = text.TextId;
             text.TextId = EditorGUILayout.IntField("文本ID:", text.TextId);
@@ -796,9 +801,7 @@ namespace TMPro.EditorUtilities
             }
 
             EditorGUI.indentLevel -= 1;
-
-
-
+            
             EditorGUILayout.Space();
         }
 

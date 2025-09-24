@@ -53,6 +53,7 @@
     <Compile Include="Assets\Samples\YooAsset\2.3.7\Space Shooter\GameScript\Editor\SchemaTools.cs" />
     <Compile Include="Assets\Samples\YooAsset\2.3.7\Space Shooter\GameScript\Editor\TextureSchema.cs" />
     <Compile Include="Assets\Samples\YooAsset\2.3.7\Space Shooter\GameScript\Editor\TextureTools.cs" />
+    <Compile Include="Assets\Scripts\Editor\Font\FontStyleOnLoad.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>E:/011_unityTest/TMP_test/Test11111/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>

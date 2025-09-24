@@ -50,8 +50,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\AAAAAAAAAAAA\HyTest.cs" />
-    <Compile Include="Assets\AAAAAAAAAAAA\Main.cs" />
     <Compile Include="Assets\MapCreater.cs" />
     <Compile Include="Assets\MyCustomEditorWindow.cs" />
     <Compile Include="Assets\Samples\YooAsset\2.3.7\Space Shooter\GameScript\Runtime\BattleLogic\BattleRoom.cs" />
@@ -83,6 +81,7 @@
     <Compile Include="Assets\Samples\YooAsset\2.3.7\Space Shooter\GameScript\Runtime\WindowLogic\UIBattleWindow.cs" />
     <Compile Include="Assets\Samples\YooAsset\2.3.7\Space Shooter\GameScript\Runtime\WindowLogic\UIHomeWindow.cs" />
     <Compile Include="Assets\Samples\YooAsset\2.3.7\Space Shooter\GameScript\Runtime\WindowLogic\UILoadingWindow.cs" />
+    <Compile Include="Assets\Scripts\Tools\ABFileUtils.cs" />
     <Compile Include="Assets\SomeWindow.cs" />
     <Compile Include="Assets\TMPTools\FontStyleSetting.cs" />
     <Compile Include="Assets\TMPTools\TextConfig.cs" />
@@ -94,6 +93,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\data\fontcolor_underlaycolor.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -103,9 +103,11 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\data\fontcolor_fontcolor.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\data\fontcolor_fontsizetounderlaydilate.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
